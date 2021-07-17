@@ -1,6 +1,6 @@
 <?php
 $sexy=$_GET['id'];
-switch ($id) {
+switch ($sexy) {
     case "all_pic":
         $str1 = "https://pic3.lksin.xyz/pic/main/test/";
         $str2 = rand(1,841);
