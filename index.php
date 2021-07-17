@@ -1,5 +1,5 @@
 <?php
-$sexy=$_GET['id'];
+$sexy=$_GET["id"];
 switch ($sexy) {
     case "all_pic":
         $str1 = "https://pic3.lksin.xyz/pic/main/test/";
