@@ -1,7 +1,7 @@
 <?php
 $sexy=$_GET['id'];
 switch ($id) {
-    case "all_pic"
+    case "all_pic":
         $str1 = "https://pic3.lksin.xyz/pic/main/test/";
         $str2 = rand(1,841);
         $str3 = ".jpg";
@@ -10,7 +10,7 @@ switch ($id) {
         $str4 = $str1.$strn1.$str2.$strn2.$str3;
         header("Location: $str4");
     break;
-    case "honkai_impact"
+    case "honkai_impact":
         $str1 = "https://pic3.lksin.xyz/pic/pic/test1/";
         $str2 = rand(1,30);
         $str3 = ".jpg";
