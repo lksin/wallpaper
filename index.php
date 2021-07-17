@@ -5,7 +5,7 @@ $str3 = ".jpg";
 $strn1 = "1 (";
 $strn2 = ")";
 $str4 = $str1.$strn1.$str2.$strn2.$str3;
-echo $str4;
+# echo $str4;
 header("Location: $str4");
 exit();
 ?>
