@@ -18,15 +18,14 @@ switch ($sexy) {
         $strn2 = ")";
         $str4 = $str1.$strn1.$str2.$strn2.$str3;
         header("Location: $str4");
-        break;
+    break;
     case "blog_top":
         $str1 = "https://cdn.jsdelivr.net/gh/PRWYQ/fantasy@1.0/top/";
         $str2 = rand(1,20);
         $str3 = ".jpg";
         $str4 = $str1.$str2.$str3;
-        echo $str4;
         header("Location: $str4");
-        break;
+    break;
 }
 
     
