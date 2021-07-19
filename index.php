@@ -28,7 +28,6 @@ switch ($sexy) {
         header("Location: $str4");
         break;
 }*/
-<?php
 //存有链接的文件名
 $filename = "RandomPic.txt";
 if(!file_exists($filename)){
