@@ -26,6 +26,15 @@ switch ($sexy) {
         $str4 = $str1.$str2.$str3;
         header("Location: $str4");
     break;
+        case "test1":
+        $str1 = "https://lksin.xyz/pic/tset/";
+        $str2 = rand(1,30);
+        $str3 = ".jpg";
+        $strn1 = "honkai_impact (";
+        $strn2 = ")";
+        $str4 = $str1.$str2.$str3;
+        header("Location: $str4");
+    break;
 }
 
     
